@@ -9,8 +9,7 @@ pipeline {
         }
         stage('Build and Test') {
             steps {
-                sh ''' ls -lart
-                mvn clean install '''
+               sh 'mvn clean install'
             
             }
         }
