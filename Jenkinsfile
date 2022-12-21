@@ -9,7 +9,7 @@ pipeline {
         }
         stage('Build and Test') {
             steps {
-                sh 'mvn clean install'
+                sh 'mvn clean install -Dmaven.test.skip=true'
             
             }
         }
