@@ -13,6 +13,7 @@ pipeline {
                 mvn clean install '''
             
             }
+        }
         stage('Code Analysis') {
             steps {
                 echo "Scanned successfully!"
