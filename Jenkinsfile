@@ -20,7 +20,7 @@ pipeline {
         }
         stage('Notification') {
             steps {
-                emailext body: 'Build was successful, Thank you!', subject: 'Build Status', to: 'shrth7777@gmail.com'
+                emailext body: 'Alright perfect', subject: 'BUILD STATUS', to: 'shrth7777@gmail.com'
             }
         }
         }
